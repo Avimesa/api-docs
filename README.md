@@ -1,6 +1,6 @@
-# Avimesa RESTful API Documentation
+# Avimesa RESTful API
 
-Brief on Avimesa's RESTful endpoints.
+This RESTful API is used to programmatically access data stored in your Live account.
 
 _All endpoints require a set of authentication tokens in order to return successfully._
 Some incomplete JSON:
