@@ -1,11 +1,24 @@
-# api-docs
-Avimesa RESTful API Documentation
+# Avimesa RESTful API Documentation
 
+Brief on Avimesa's RESTful endpoints.
 
+_All endpoints require a set of authentication tokens in order to return successfully._
+Some incomplete JSON:
+```JSON
+{
+  "apiKey": "deadbeefdeadbeefdeadbeefdeadbeef",
+  "apiPassword": "deadbeefdeadbeef",
+```
 
-asdf
+You'll need to obtain a set of these from an administrative user.
 
-asdf
+## Endpoints
+
+```
+POST /api/v1/get-ebara-vpump-data
+```
+
+This endpoint is used to retrieve data for a specific Ebara vacuum pump metric within a range of time.
 
 ```JSON
 {
